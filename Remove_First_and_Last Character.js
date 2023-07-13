@@ -24,11 +24,3 @@ function removeChar(str){
      return output_str;
    };
 
- 
-   Jekoff/CodewarsJekoff/Codewars
-
-https://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@github_com/Jekoff/Codewars.git
-
-
-
-
