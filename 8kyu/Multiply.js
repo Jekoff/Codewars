@@ -11,6 +11,6 @@ function multiply(a, b){
   return a * b
  }
 
-// Another solutions
+// Other solutions:
 
 multiply = (a, b) => a * b;

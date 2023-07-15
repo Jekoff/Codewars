@@ -10,7 +10,7 @@ function removeChar(str){
   return str.slice(1, -1);
 }
 
-// Other Solutions
+// Other Solutions from Codewars:
 
 function removeChar(str){
     //You got this!
