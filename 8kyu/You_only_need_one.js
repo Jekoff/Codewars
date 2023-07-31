@@ -9,7 +9,7 @@ Return true if the array contains the value, false if not.
 // My solution:
 
 funnction check(a, x) {
-    return a. includes(x);
+    return a.includes(x);
 }
 
 // Other solutions:
