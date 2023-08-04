@@ -1,4 +1,4 @@
- /* mission 1: I've create three function, and defined some global variables, 
+/* mission 1: I've create three function, and defined some global variables, 
 please select some variables that can make up the name of the function, 
 and return them(Please note the uppercase and lowercase letters are different).
 
@@ -8,7 +8,7 @@ working properly.
 mission 2: After mission 1 finished. you should click "Attempt" to see my 
 three questions, and write the answer in function answer1, answer2,answer3
 
-If everything is right, click "Submit" again to submit your code pass this kata. */
+If everything is right, click "Submit" again to submit your code pass this kata.*/
 
 // My solution:
 
@@ -44,15 +44,10 @@ function answer3() {
 // Other Solutions:
 
 var [a1,a2,b1,b2,c1,c2,d1,d2,e1,e2,n1,n2] = ["A","a","B","b","C","c","D","d","E","e","N","n"];
-var Dad = function(){
-  //select some variable to combine "Dad"
-  return d1+a2+d2;
-};      
 let Dad=()=>d1+a2+d2,
     Bee=()=>b1+e2+e2,
     banana=()=>b2+a2+n2+a2+n2+a2,
     answer1=()=>"no",
     answer2=()=>"no",
     answer3=()=>"yes";
-
 
