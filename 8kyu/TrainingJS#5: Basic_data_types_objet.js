@@ -8,7 +8,7 @@ and return a string like this:
 // Solution 1:
 
 function animal(obj){
-    return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
+    return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
 }
 
 // Solution 2:
