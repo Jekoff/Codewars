@@ -34,4 +34,4 @@ function grabDoll(dolls){
 // Other Solutions:
 
 const grabDoll = dolls => /*for() break continue*/
-dolls.filter(x => x === "Hello Kitty" || x == "Barbie doll").slice(o, 3);
+dolls.filter(x => x === "Hello Kitty" || x == "Barbie doll").slice(0, 3);
