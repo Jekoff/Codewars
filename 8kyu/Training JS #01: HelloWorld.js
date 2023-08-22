@@ -33,3 +33,6 @@ const helloWorld = () => {
 
 // Another one:
 
+
+
+const helloWorld = => {let str = 0; console.log('Hello World!')}
