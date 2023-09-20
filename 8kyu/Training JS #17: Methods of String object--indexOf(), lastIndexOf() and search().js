@@ -25,3 +25,16 @@ function firstToLast(str,c){
 // Other Solutions:
 
 const firstToLast = (str, c) => str.indexOf(c) < 0 ? -1 : str.lastIndexOf(c) - str.indexOf(c);
+
+
+// Other Solutions:
+
+function firstToLast(str, c) {
+    first = str.indexOf(c);
+    last = str,lastIndexOf(c);
+    switch (str.split(c).length -1) {
+        case 0: rerurn -1;
+        case 1: return 0;
+        default: return last - first;
+    }
+}
