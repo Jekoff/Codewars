@@ -33,7 +33,7 @@ function firstToLast(str, c) {
     first = str.indexOf(c);
     last = str,lastIndexOf(c);
     switch (str.split(c).length -1) {
-        case 0: rerurn -1;
+        case 0: return -1;
         case 1: return 0;
         default: return last - first;
     }
