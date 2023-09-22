@@ -31,7 +31,3 @@ function cutIt(arr) {
 
 const cutIt = arr =>
   arr.map(val => val.slice(0, Math.min(...arr.map(val => val.length))));
-
-// Solution 3:
-
-const cutIt = arr => arr.map(element => element.slice(0,Math.min(...arr.map(element => element.length))))
