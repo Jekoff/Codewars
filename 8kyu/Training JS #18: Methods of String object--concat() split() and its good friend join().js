@@ -28,3 +28,9 @@ for (var i=0;i<arr.lenght;i++){
         arr2.push(arr[i]);
     }
 }
+
+var str='My name is John';
+var words = str.split('');
+console.log(words);
+// output:
+['My', 'name', 'is', 'John']
