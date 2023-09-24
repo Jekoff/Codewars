@@ -34,3 +34,4 @@ var words = str.split('');
 console.log(words);
 // output:
 ['My', 'name', 'is', 'John']
+
