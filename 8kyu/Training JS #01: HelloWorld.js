@@ -43,3 +43,7 @@ getFirst = a => a[0];
 getLast = a => a[a.length - 1];
 pushElement = a => {a.push(4); return a};
 popElement = a => {a.pop(); return a};
+
+// Another one:
+
+const helloWorld=_=>{let str=0;console.log("Hello World!")}
