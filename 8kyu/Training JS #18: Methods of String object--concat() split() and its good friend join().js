@@ -27,4 +27,15 @@ for (var i=0;i<arr.lenght;i++){
     if (arr[i]!==''){
         arr2.push(arr[i]);
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+var str='My name is John';
+var words = str.split('');
+console.log(words);
+// output:
+['My', 'name', 'is', 'John']
+
+>>>>>>> 0b3378420620bf8c3a05348002b921c6ab5fd691
