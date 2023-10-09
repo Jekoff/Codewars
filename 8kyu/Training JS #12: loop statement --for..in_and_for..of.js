@@ -38,9 +38,14 @@ function giveMeFive(obj){
     return arr.filter( word => word.length === 5)
     
   }
-  function showArrayValues(arr){
-    for (let values of arr){
-      for(var value id arr){
-        console.log(value);
-      }
+  // Another solution:
+
+  function giveMeFive(obj){
+    let arr = []
+    for(let key in obj) {
+     arr.push(key) && arr.push(obj[key])
     }
+    
+    return arr.filter( word => word.length === 5)
+    
+  }
