@@ -23,5 +23,11 @@ function trueOrFalse(val){
 function trueOrFalse(val){
     return Boolean(val).toString();
   }
+  
+  // Another one:
 
+  true0rFalse = val = val => {
+    if (val) return 'true';
+    return 'false';
+  } 
 
