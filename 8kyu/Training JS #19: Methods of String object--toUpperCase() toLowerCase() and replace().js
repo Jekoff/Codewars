@@ -26,3 +26,10 @@ function alienLanguage(str) {
 // Other Solutions:
 
 const alienLanguage = str => str.toUpperCase().replace(/\w\b/g,m => m.toLowerCase())
+
+// Another one:
+
+function alienLanguage(str){
+    //coding here...
+      return str.split(' ').map(v=>v.slice(0,-1).toUpperCase() +v.slice(-1).toLowerCase()).join(' ');
+}  
