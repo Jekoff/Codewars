@@ -13,17 +13,7 @@ of the file, and then answer my three questions. If the answer is correct,
 // My Solution:
 
 function topSecret(str){
-    return str.split('').map(char => {
-      if (char.charCodeAt() >= 68 && char.charCodeAt() <= 90) {
-        return String.fromCharCode(char.charCodeAt() - 3)
-      } else if (char.charCodeAt() >= 65 && char.charCodeAt() <= 67) {
-        return String.fromCharCode(char.charCodeAt() + 23)
-      } else if (char.charCodeAt() >= 100 && char.charCodeAt() <= 122) {
-        return String.fromCharCode(char.charCodeAt() - 3)
-      } else if (char.charCodeAt() >= 97 && char.charCodeAt() <= 99) {
-        return String.fromCharCode(char.charCodeAt() + 23)
-      } else {
-        return char
-      }
-    }).join('')
-  }
+    return str.replace(/[a-z]/gi, function(s){
+      return String.fromCharCode(s.charCodeAt(0) + (s.toLowerCase() < 'd' ? 23 : -3));
+    });
+  } 
