@@ -17,3 +17,11 @@ function topSecret(str){
       return String.fromCharCode(s.charCodeAt(0) + (s.toLowerCase() < 'd' ? 23 : -3));
     });
   } 
+
+  // other solution
+
+  function topSecret(s,a) {
+    s = s.replace(/[a-z]/gi,(c,n) => String.fromCharCode((n = c.charCodeAt())-(n&=31)+(n+22)%26+1));
+    if (a = s.match(/No. (\d+)\n.+? agent (.+?),.+? stole the (.+?) from/)) [,answer1,answer2,answer3] = a;
+    return s;
+}
