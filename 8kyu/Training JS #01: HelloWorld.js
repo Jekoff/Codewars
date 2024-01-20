@@ -18,18 +18,28 @@ In the end, click "Submit" to submit your code pass this kata. */
 
 // MY SOLUTION:
 
+
+// Mission 1: Define a function named 'helloWorld'
+
 function helloWorld() {
-    let str = "Hello World!"
-    console.log(str)
+  //Function body goes here
 }
+
+// Mission 2: Define a variable str with the value "Hello World!"
+
+var str = 'Hello World!'
+
+// Mission 3: Print "Hello World!" to the console
+
+console.log(str);
 
 
 // OTHER SOLUTIONS:
 
-const helloWorld = () => {
-  var str = `Hello World!`;
-  console.log(str);
-};
+let str = 'Hello World!';
+  var str =
+
+
 
 // Another one:
 
